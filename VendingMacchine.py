@@ -86,6 +86,26 @@ def payment_process(cost):
             
 
 
+#6: calculate and return change funtion.
+
+def calculate_change(total_inserted, cost):
+    #This function return change to consumers.
+    change = total_inserted - cost
+    print(f"Thank you for your purchase, Your remaining amount is {change: }. see you soon!")
+
+#7: vending machine last and most important part:
+def vending_machine():
+
+    welcome_message_
+    show_products_()
+    Choosen_code = choose_product
+    product_name, product_price = products[Choosen_code]
+    print(f"")
+
+    
+
+
+
 
 
 
