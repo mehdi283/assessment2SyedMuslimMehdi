@@ -62,6 +62,45 @@ def choose_product():
             print("The product code you have entered is incorrect please enter a correct product code!")
             
 
+#5: Payment handeling function.
+
+def payment_process(cost):
+    #This funtion manages money insertion and make sure the customer insert an enough amount to buy products.
+    print(f"The cost of the product is aed{cost: }. please insert money." )
+    total_inserted = 0.0   #Calculate money inserted by the consumers.
+    while total_inserted < cost: #Keep asking for funds untill enough fund is added.
+            try:
+                #This funtion asks user to pay.
+                money = float (input(f"Insert money (remaining: aed{cost - total_inserted: })"))
+                if money > 0 :
+
+                 total_inserted += money
+
+                else: 
+                    print("please enter a positive number")
+                
+            except ValueError:
+                print("incorrect input, enter a valid number")
+
+                return total_inserted
+            
+
+
+
+
+
+
+
+
+
+                
+                                                    
+
+                
+     
+    
+
+
 
 
 
