@@ -1,7 +1,7 @@
 
 #Vending Machine 
 
-#Student Name: Syed muslim mehdi
+#Student Name: Syed Muslim Mehdi
 #CS Year 1 
 
 #1: Create Products lists, Every product has its own identity code, name and a price.
